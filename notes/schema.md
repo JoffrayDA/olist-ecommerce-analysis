@@ -52,32 +52,3 @@
 50                       sellers                    seller_city
 51                       sellers                   seller_state
 
-
-   count(customer_id) customer_state
-0                12852             RJ
-1                 3380             BA
-2                  495             PI
-3                   46             RR
-4                  715             MS
-5                  907             MT
-6                  413             AL
-7                41746             SP
-8                11635             MG
-9                  747             MA
-10                2140             DF
-11                1652             PE
-12                 253             RO
-13                 536             PB
-14                 350             SE
-15                5466             RS
-16                1336             CE
-17                5045             PR
-18                 485             RN
-19                  81             AC
-20                2020             GO
-21                2033             ES
-22                 148             AM
-23                  68             AP
-24                 280             TO
-25                3637             SC
-26                 975             PA
