@@ -27,6 +27,6 @@ JOIN order_reviews AS o_r USING (order_id)
 GROUP BY seller_id
 HAVING COUNT(o_r.review_score) >= 10
 ORDER BY moyenne_note ASC 
-LIMIT 10 
+LIMIT 10;
 
 
