@@ -20,7 +20,7 @@ FROM orders
 JOIN order_reviews as o_r
 USING (order_id)
 GROUP BY o_r.review_score
-ORDER BY o_r.review_score
+ORDER BY o_r.review_score   
 
 
 
