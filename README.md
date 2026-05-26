@@ -1,6 +1,6 @@
 # 🛒 Olist E-Commerce Analysis
 
-End-to-end Business Analyst project on the Brazilian e-commerce dataset Olist (~100K orders, 2016–2018): SQL exploration in DuckDB + 5-page interactive Power BI dashboard.
+End-to-end Business Analyst project on the Brazilian e-commerce dataset Olist (~100K orders, 2016–2018): SQL exploration in DuckDB + 5 interactive Power BI dashboard pages.
 
 ![Dashboard Preview](dashboard/screenshots/01_vue_generale.png)
 
@@ -44,17 +44,17 @@ Monthly revenue trend + MoM variation. Reveals a clear **growth trajectory with 
 ### 3️⃣ Delivery Analysis
 ![Delivery](dashboard/screenshots/03_delivery.png)
 
-Brazil choropleth map (blue → red gradient) + top slowest states. **The North/Northeast averages 25–29 days vs 12 days in the South-East** — a 2× gap that reveals Olist's structural logistics bottleneck. Olist still beats its own estimates by ~12 days on average (under-promise, over-deliver).
+Brazil map (blue → red gradient) + top slowest states. **The North/Northeast averages 25–29 days vs 12 days in the South-East** a 2× gap that reveals Olist's structural logistics bottleneck. Olist still beats its own estimates by ~12 days on average (under-promise, over-deliver).
 
 ### 4️⃣ Customer Satisfaction
 ![Satisfaction](dashboard/screenshots/04_satisfaction.png)
 
-Scatter (delay × score by state) + bar chart by delivery bucket. **The killer insight:** orders delivered in 0–7 days score **4.4/5**; orders delivered in 30+ days drop to **2.5/5** — a 43% satisfaction loss directly tied to logistics. Every state follows this trend individually.
+Scatter (delay × score by state) + bar chart by delivery bucket. **The killer insight:** orders delivered in 0–7 days score **4.4/5**; orders delivered in 30+ days drop to **2.5/5** a 43% satisfaction loss directly tied to logistics. Every state follows this trend individually.
 
 ### 5️⃣ Seller Performance
 ![Sellers](dashboard/screenshots/05_sellers.png)
 
-Top 10 sellers by revenue + average revenue by state. **São Paulo alone generates 5× more revenue than the next state**, and the top 4 states (all South-East) dominate the marketplace — which structurally *explains* the Northern delivery problem from Page 3.
+Top 10 sellers by revenue + average revenue by state. **São Paulo alone generates 5× more revenue than the next state**, and the top 4 states (all South-East) dominate the marketplace, which structurally *explains* the Northern delivery problem from Page 3.
 
 ---
 
