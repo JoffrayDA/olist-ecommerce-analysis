@@ -40,6 +40,3 @@ FROM (
     GROUP BY date
     ORDER BY date
 )
-
-
-

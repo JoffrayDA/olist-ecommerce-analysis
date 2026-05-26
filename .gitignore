@@ -1,3 +1,20 @@
-data/
-*.csv
-*.pbix
+# Windows
+desktop.ini
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# DuckDB
+*.duckdb
+*.duckdb.wal
+
+# IDE
+.vscode/
+.idea/
+
+# Data files (download from Kaggle)
+data/*.csv
