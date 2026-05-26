@@ -2,8 +2,6 @@
 
 End-to-end Business Analyst project on the Brazilian e-commerce dataset Olist (~100K orders, 2016–2018): SQL exploration in DuckDB + 5-page interactive Power BI dashboard.
 
-![Dashboard Preview](dashboard/screenshots/01_vue_generale.png)
-
 ---
 
 ## 🎯 Business Questions
