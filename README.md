@@ -1,4 +1,4 @@
-# 🛒 Olist E-Commerce Analysis
+# Olist E-Commerce Analysis
 
 End-to-end Business Analyst project on the Brazilian e-commerce dataset Olist (~100K orders, 2016–2018): SQL exploration in DuckDB + 5 interactive Power BI dashboard pages.
 
@@ -15,13 +15,13 @@ End-to-end Business Analyst project on the Brazilian e-commerce dataset Olist (~
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 **DuckDB** (SQL engine) · **Python** (query runner) · **Power BI** (dashboard + DAX) · **Git/GitHub**
 
 ---
 
-## 📁 Structure
+## Structure
 ├── data/         # 9 raw CSV tables
 ├── sql/          # 6 analysis queries (exploration → seller perf)
 ├── dashboard/    # .pbix + screenshots
@@ -31,7 +31,7 @@ End-to-end Business Analyst project on the Brazilian e-commerce dataset Olist (~
 
 ---
 
-## 📊 Dashboard Walkthrough
+## Dashboard Walkthrough
 
 ### 1️⃣ General Overview
 Executive snapshot: **R$ 16.01M revenue**, **103.89K orders**, **4.09/5 avg rating**, **12.5 days avg delivery**. Surfaces the core tension explored in the rest of the dashboard: solid satisfaction despite Brazil-scale logistics challenges.
@@ -58,7 +58,7 @@ Top 10 sellers by revenue + average revenue by state. **São Paulo alone generat
 
 ---
 
-## 🧠 Key DAX Measures
+## Key DAX Measures
 
 ```dax
 Delai_moyen_jours = 
@@ -78,7 +78,7 @@ Revenue_Seller = SUM(order_items[price])
 
 ---
 
-## 📌 Run
+## Run
 
 ```bash
 git clone https://github.com/JoffrayDA/olist-ecommerce-analysis.git
